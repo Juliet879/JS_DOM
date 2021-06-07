@@ -28,7 +28,7 @@ var myObject = {
 myObject.func(); 
     
             
-            The first console with outer func will print Lovelace 
+        The first console with outer func will print Lovelace 
             This is because this.name is referring to the object global variable name declared before the function
             giving it the permission to access it value "Lovelace"
         The second console with outer func will print Lovelace

@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: blanchedalmond;
+}
+.mySlides{
+    width: 100%;
+    height: 80vh;
+}
+#form{
+    background-color: cadetblue;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#submit{
+    border: 2px solid red;
+    padding: 10px 20px;
+    margin-left: 30px;
+    background-color: rgb(180, 104, 104);
+}
+input{
+    padding: 10px 50px;
+    border-radius: 20px;
+
+}
