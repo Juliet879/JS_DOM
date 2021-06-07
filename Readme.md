@@ -1,4 +1,4 @@
-##Carousel script explanation
+## Carousel script explanation
 
     First I will add the Images that I want to have in my carousel then ,then them an class ,"mySlides" by which I will
     use to identify them from my the other elements /Images. In my javascript file I will initialize a variable
@@ -13,6 +13,34 @@
     screen before the next image is shown.And there I will have my slides
 
 
+## var myObject = {
+##    name: "Lovelace",
+##    func: function() {
+##        var self = this;
+##       console.log("outer func:  this.name = " + this.name);
+##        console.log("outer func:  self.name = " + self.name);
+##       (function() {
+##            console.log("inner func:  this.name = " + this.name);
+##            console.log("inner func:  self.name = " + self.name);
+##        }());
+##    }
+## };
+## myObject.func(); 
+    
+            
+            The first console with outer func will print Lovelace 
+            This is because this.name is referring to the object global variable name declared before the function
+            giving it the permission to access it value "Lovelace"
+        The second console with outer func will print Lovelace
+            The self variable has been assigned this with is referencing to the object itself containing the global
+            variable name hence its able to also access it value "Lovelace"
 
-    
-    
+        The first console with inner func will print Undefined
+            Prints out undefined because its referring to this which is an object but the function itself has no 
+            access to the object but just has access to the outer function only so its not able to find the object
+            being refrenced by this keyword
+            
+        The second console with inner func will print Lovelace
+            The Inner function prints Lovelace because its referencing to self which is the outer function which has been
+            assigned the object by using this.So its able to access the value for the name ("Lovelace through") the outer
+            function

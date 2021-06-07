@@ -12,9 +12,3 @@ var myObject = {
 };
 myObject.func();
 
-// The first console with outer func will print Lovelace 
-    // This is because this
-// The second console with outer func will print Lovelace
-
-// The first console with inner func will print Undefined
-//  The second console with inner func will print Lovelace
