@@ -13,7 +13,7 @@
     screen before the next image is shown.And there I will have my slides
 
 
-## var myObject = {
+var myObject = {
     name: "Lovelace",
     func: function() {
         var self = this;
